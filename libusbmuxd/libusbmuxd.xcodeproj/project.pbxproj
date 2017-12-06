@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22EB7D471FD6806300535887 /* libusbmuxd.c in Sources */ = {isa = PBXBuildFile; fileRef = 22EB7D3E1FD6806300535887 /* libusbmuxd.c */; };
+		22EB7D481FD6806300535887 /* collection.c in Sources */ = {isa = PBXBuildFile; fileRef = 22EB7D401FD6806300535887 /* collection.c */; };
+		22EB7D491FD6806300535887 /* collection.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EB7D411FD6806300535887 /* collection.h */; };
+		22EB7D4A1FD6806300535887 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = 22EB7D421FD6806300535887 /* socket.c */; };
+		22EB7D4B1FD6806300535887 /* socket.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EB7D431FD6806300535887 /* socket.h */; };
+		22EB7D4C1FD6806300535887 /* usbmuxd-proto.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EB7D451FD6806300535887 /* usbmuxd-proto.h */; };
+		22EB7D4D1FD6806300535887 /* usbmuxd.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EB7D461FD6806300535887 /* usbmuxd.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22EB7D361FD67FDB00535887 /* liblibusbmuxd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibusbmuxd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EB7D3E1FD6806300535887 /* libusbmuxd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libusbmuxd.c; sourceTree = "<group>"; };
+		22EB7D401FD6806300535887 /* collection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = collection.c; sourceTree = "<group>"; };
+		22EB7D411FD6806300535887 /* collection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collection.h; sourceTree = "<group>"; };
+		22EB7D421FD6806300535887 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		22EB7D431FD6806300535887 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		22EB7D451FD6806300535887 /* usbmuxd-proto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "usbmuxd-proto.h"; sourceTree = "<group>"; };
+		22EB7D461FD6806300535887 /* usbmuxd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usbmuxd.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22EB7D331FD67FDB00535887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22EB7D2D1FD67FDB00535887 = {
+			isa = PBXGroup;
+			children = (
+				22EB7D3F1FD6806300535887 /* common */,
+				22EB7D441FD6806300535887 /* include */,
+				22EB7D3D1FD6806300535887 /* src */,
+				22EB7D371FD67FDB00535887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22EB7D371FD67FDB00535887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22EB7D361FD67FDB00535887 /* liblibusbmuxd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22EB7D3D1FD6806300535887 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				22EB7D3E1FD6806300535887 /* libusbmuxd.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		22EB7D3F1FD6806300535887 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				22EB7D401FD6806300535887 /* collection.c */,
+				22EB7D411FD6806300535887 /* collection.h */,
+				22EB7D421FD6806300535887 /* socket.c */,
+				22EB7D431FD6806300535887 /* socket.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		22EB7D441FD6806300535887 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				22EB7D451FD6806300535887 /* usbmuxd-proto.h */,
+				22EB7D461FD6806300535887 /* usbmuxd.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22EB7D341FD67FDB00535887 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EB7D491FD6806300535887 /* collection.h in Headers */,
+				22EB7D4B1FD6806300535887 /* socket.h in Headers */,
+				22EB7D4C1FD6806300535887 /* usbmuxd-proto.h in Headers */,
+				22EB7D4D1FD6806300535887 /* usbmuxd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22EB7D351FD67FDB00535887 /* libusbmuxd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22EB7D3A1FD67FDB00535887 /* Build configuration list for PBXNativeTarget "libusbmuxd" */;
+			buildPhases = (
+				22EB7D321FD67FDB00535887 /* Sources */,
+				22EB7D331FD67FDB00535887 /* Frameworks */,
+				22EB7D341FD67FDB00535887 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libusbmuxd;
+			productName = libusbmuxd;
+			productReference = 22EB7D361FD67FDB00535887 /* liblibusbmuxd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22EB7D2E1FD67FDB00535887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = lgy;
+				TargetAttributes = {
+					22EB7D351FD67FDB00535887 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22EB7D311FD67FDB00535887 /* Build configuration list for PBXProject "libusbmuxd" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22EB7D2D1FD67FDB00535887;
+			productRefGroup = 22EB7D371FD67FDB00535887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22EB7D351FD67FDB00535887 /* libusbmuxd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22EB7D321FD67FDB00535887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EB7D471FD6806300535887 /* libusbmuxd.c in Sources */,
+				22EB7D481FD6806300535887 /* collection.c in Sources */,
+				22EB7D4A1FD6806300535887 /* socket.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22EB7D381FD67FDB00535887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22EB7D391FD67FDB00535887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22EB7D3B1FD67FDB00535887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../libplist/include";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22EB7D3C1FD67FDB00535887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../libplist/include";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22EB7D311FD67FDB00535887 /* Build configuration list for PBXProject "libusbmuxd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EB7D381FD67FDB00535887 /* Debug */,
+				22EB7D391FD67FDB00535887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22EB7D3A1FD67FDB00535887 /* Build configuration list for PBXNativeTarget "libusbmuxd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EB7D3B1FD67FDB00535887 /* Debug */,
+				22EB7D3C1FD67FDB00535887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22EB7D2E1FD67FDB00535887 /* Project object */;
+}
